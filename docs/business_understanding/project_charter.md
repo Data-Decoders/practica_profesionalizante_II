@@ -2,7 +2,7 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Predicción de impago en American Express
 
 ## Objetivo del Proyecto
 
