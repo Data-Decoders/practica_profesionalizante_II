@@ -1,4 +1,4 @@
-# Team Data Science Project Template
+# Team Data Science Project "Predicción de impago en American Express"
 
 Esta plantilla es una implementación de la plantilla de proyecto de Team Data Science Process (TDSP de Microsoft) que se utilizará en el espacio curricular "Práctica Profesionalizante II" del Instituto Superior Politécnico de Córdoba.
 
