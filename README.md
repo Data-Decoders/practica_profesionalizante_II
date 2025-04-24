@@ -1,6 +1,6 @@
 # Team Data Science Project Template
 
-Esta plantilla es una implementación de la plantilla de proyecto de Team Data Science Process que actualmente se utiliza en el "Programa de Formación en Machine Learning y Data Science" en la Universidad Nacional de Colombia.
+Esta plantilla es una implementación de la plantilla de proyecto de Team Data Science Process (TDSP de Microsoft) que se utilizará en el espacio curricular "Práctica Profesionalizante II" del Instituto Superior Politécnico de Córdoba.
 
 Esta plantilla proporciona las siguientes carpetas y archivos:
 
