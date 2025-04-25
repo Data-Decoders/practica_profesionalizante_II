@@ -87,7 +87,7 @@ Estas fechas pueden ser ajustadas a medida que se desarrolla el proyecto.
 - NÜESCH, Christian - Data Scientist
 - ZURITA, Abigail - Ethical Reviewer
 
-_Quitando el Project Manager, todos somos alumnos e intercambiaremos y complementaremos roles_
+_Exceptuando el Project Manager, todos somos alumnos e intercambiaremos y complementaremos roles_
 
 
 
