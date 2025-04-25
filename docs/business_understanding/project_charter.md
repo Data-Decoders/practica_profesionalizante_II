@@ -2,18 +2,34 @@
 
 ## Nombre del Proyecto
 
-Predicción de impago en American Express
+Predicción y Análisis de Pacientes con Cáncer a Nivel Global utilizando Machine Learning (2015-2024)
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+Aplicar técnicas de machine learning para analizar y predecir tendencias en la incidencia, prevalencia y mortalidad de pacientes con cáncer a nivel global entre 2015 y 2024, identificando factores asociados y patrones relevantes en los datos para apoyar la toma de decisiones en salud pública y mejorar la comprensión de la evolución del cáncer en distintas regiones y grupos demográficos.
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
+- Disponemos de los datos relacionados con pacientes de cáncer a nivel mundial durante el periodo 2015-2024. Estos datos incluyen las siguientes variables principales:
+    - Tipo de cáncer
+    - Edad del paciente
+    - Género del paciente
+    - País de residencia del paciente
+    - Año del diagnóstico
+    - Riesgo genético
+    - Polución en el aire
+    - Uso de alcohol y tabaco
+    - Nivel de obesidad
+    - Tipo de cáncer
+    - Estadío del cáncer al momento del diagnóstico
+    - Costo en dólares del tratamiento recibido
+    - Años que un paciente ha sobrevivido desde el diagnóstico
+    - Gravedad o severidad del cáncer
+    
+- Con estos datos/variables pretendemos realizar análisis descriptivos y predictivos sobre la incidencia y evolución del cáncer en diferentes regiones, grupos etarios y géneros, así como estudiar la efectividad de distintos tratamientos y la supervivencia de los pacientes a lo largo del tiempo.
+
 - [Criterios de éxito del proyecto]
 
 ### Excluye:
