@@ -69,37 +69,56 @@ Se utilizará la metodología Team Data Science Process (TDSP) para llevar a cab
 
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
+| Definición del Problema | 2 semanas | del 14 de abril al 25 de abril |
+| Análisis Exploratorio (EDA) y Fairlearn | 2 semanas | del 28 de abril al 9 de mayo |
+| Preparando los Datos | 2 semanas | del 12 de mayo al 23 de mayo |
+| Modelado Inicial y Experimentación con MLflow | 2 semanas | del 26 de mayo al 2 de junio |
+| Despliegue del Modelo en Producción | 2 semanas | del 9 de junio al 20 de junio |
 
-Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
+Estas fechas pueden ser ajustadas a medida que se desarrolla el proyecto.
 
 
 
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- CHARLETTI, Carlos - Project Manager
+- LOPEZ Erick - Data Engineer
+- NÜESCH, Christian - Data Scientist
+- ZURITA, Abigail - Ethical Reviewer
+_Quitando el Project Manager, todos somos alumnos e intercambiaremos y complementaremos roles_
 
 
 
 
 ## Presupuesto
 
-[Descripción del presupuesto asignado al proyecto]
+| Concepto | Costo estimado (USD) | Detalles |
+|------|------|------|
+| Computación en la nube (opcional) | $100 | En caso de que se use Google Colab Pro, AWS, o Azure para entrenar modelos |
+| Herramientas y software | $0 | La mayoría del stack es open-source: Python, Jupyter, Scikit-learn, TensorFlow, etc. |
+| Adquisición de datos | $0 | Dataset gratuito en Kaggle |
+| Materiales de apoyo (libros, papers) | $50 | Libros, cursos online |
+| Asesorías o revisiones externas (opcional) | $100 – $200 | Si se lega a necesitar a algún experto para revisar el modelo o los resultados |
+| Infraestructura local (laptop/GPU) | $0 | Como el equipo ya tiene los recursos, este costo se omite |
 
+### Total estimado:
+
+- Con recursos existentes (infraestructura de instituto): $0 – $100
+- Con servicios externos o nube intensiva: $100 – $400
+- Proyecto más profesional o semicomercial: $500 – $1,000+
 
 
 
 ## Stakeholders
 
-- [Nombre y cargo de los stakeholders del proyecto]
-- [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
+- Instituto Superior Politécnico de Córdoba - Casa de estudio
+- MERCADO, Gladys Laura - Coordinadora de la carrera
+- MANZANELLI, Tatiana - Reemplazo de la coordinadora
+
+Las personas que integramos el equipo del proyecto somos alumnos del instituto
+
+Las expectativas de los stakeholders son vincular directamente a los estudiantes con el entorno laboral, fomentando su adaptación a dinámicas profesionales, el trabajo en equipo y la capacidad de comunicación con otros especialistas y clientes.
 
 
 
