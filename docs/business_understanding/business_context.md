@@ -1,6 +1,6 @@
-# Justificación de la Elección del Problema
+# Justificación de la elección del problema
 
-## Impacto Social
+## Impacto social
 El cáncer es una de las principales causas de muerte a nivel mundial. Desarrollar un modelo que ayude a predecir la severidad o la probabilidad de supervivencia puede asistir a sistemas de salud en priorizar tratamientos, personalizar terapias y optimizar recursos. Además, incluir el análisis de equidad garantiza que estos modelos no reproduzcan sesgos que podrían perjudicar a poblaciones vulnerables.
 
 ## Relevancia
@@ -11,7 +11,7 @@ El dataset está estructurado, incluye variables numéricas y categóricas, y pe
 
 ---
 
-# Preguntas de Negocio
+# Preguntas de negocio
 
 A partir del contexto del dataset, se pueden definir varias preguntas relevantes, con énfasis en equidad, impacto y modelado:
 
