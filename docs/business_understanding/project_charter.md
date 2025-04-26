@@ -2,7 +2,7 @@
 
 ## Nombre del Proyecto
 
-Predicción de Metástasis en Pacientes Oncológicos Globales (2015–2024)
+Predicción y Análisis de Pacientes con Cáncer a Nivel Global utilizando Machine Learning (2015–2024)
 
 
 
@@ -126,8 +126,6 @@ El trabajo no solo apunta a desarrollar competencias técnicas en ciencia de dat
 
 
 
-
-## Aprobaciones
 
 ## Aprobaciones
 
