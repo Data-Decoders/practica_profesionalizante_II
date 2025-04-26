@@ -2,7 +2,7 @@
 
 ## Nombre del Proyecto
 
-Predicción y Análisis de Pacientes con Cáncer a Nivel Global utilizando Machine Learning (2015-2024)
+Predicción de Metástasis en Pacientes Oncológicos Globales (2015–2024)
 
 
 
@@ -23,7 +23,7 @@ También se pueden explorar desigualdades en la atención médica, analizar tend
 ### Incluye:
 
 - Disponemos de los datos relacionados con pacientes de cáncer a nivel mundial durante el periodo 2015-2024. Estos datos incluyen las siguientes variables principales:
-    - Tipo de cáncer
+    
     - Edad del paciente
     - Género del paciente
     - País de residencia del paciente
@@ -43,6 +43,7 @@ También se pueden explorar desigualdades en la atención médica, analizar tend
 	2. **Interpretabilidad y explicabilidad**: Asegurar que el modelo sea comprensible para profesionales de la salud, permitiendo una interpretación clara de cómo se toman las decisiones.​
 	3. **Calidad y cantidad de datos**: Garantizar que los datos utilizados sean de alta calidad y representativos para entrenar modelos robustos y generalizables.​
 	4. **Alineación con objetivos de negocio**: Definir y seguir indicadores clave de rendimiento (KPI) que reflejen los objetivos específicos del proyecto, como la reducción de costos o la mejora en la toma de decisiones clínicas.
+    5. **Equidad del modelo**: Evaluar si el modelo mantiene un rendimiento similar entre géneros, rango etarios o regiones, utilizano métricas de Fairlearn como Equalized Odds o Disparate Impact.
 
 ### Excluye:
 
@@ -119,13 +120,17 @@ _Exceptuando el Project Manager, todos somos alumnos e intercambiaremos y comple
 
 Las personas que integramos el equipo del proyecto somos alumnos del instituto
 
-Las expectativas de los stakeholders son vincular directamente a los estudiantes con el entorno laboral, fomentando su adaptación a dinámicas profesionales, el trabajo en equipo y la capacidad de comunicación con otros especialistas y clientes.
+Las expectativas de los stakeholders son vincular directamente a los estudiantes con el entorno laboral, fomentando su adaptación a dinámicas profesionales reales. 
+
+El trabajo no solo apunta a desarrollar competencias técnicas en ciencia de datos, sino también habilidades blandas esenciales como la colaboración en equipo e interdisciplinaria, fomentando una comunicación asertiva con especialistas y clientes. 
 
 
 
 
 ## Aprobaciones
 
-- [Nombre y cargo del aprobador del proyecto]
-- [Firma del aprobador]
-- [Fecha de aprobación]
+## Aprobaciones
+
+| Nombre del aprobador        | Cargo                  | Firma                  | Fecha                  |
+|:-----------------------------|:------------------------|:------------------------|:------------------------|
+| Profesor Responsable del Proyecto | Coordinador/a Académico/a | _____________________  | _____________________  |
