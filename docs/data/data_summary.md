@@ -9,6 +9,10 @@ Este documento contiene los resultados del análisis exploratorio de datos.
 
 
 
+<br>
+<br>
+<br>
+
 ## Resumen general de los datos
 
 El dataset analizado contiene información detallada sobre pacientes con distintos tipos de cáncer, recopilada entre los años 2015 y 2024. En total, se dispone de 50,000 observaciones y 15 variables. Las variables cubren aspectos demográficos, clínicos, de hábitos y ambientales, así como información sobre costos y severidad de la enfermedad.
@@ -38,7 +42,7 @@ _Histogramas de las variables numéricas_
 <br>
 
 ![image](https://github.com/user-attachments/assets/0a162d8c-1a60-479f-b2ac-d9cdba0755b3)
-_Boxplotss de las variables numéricas_
+_Boxplots de las variables numéricas_
 
 ### Correlaciones
 
@@ -51,6 +55,10 @@ El análisis de correlación revela que las variables con mayor relación con la
 
 
 
+<br>
+<br>
+<br>
+
 ## Resumen de calidad de los datos
 
 El análisis muestra que no existen valores faltantes en ninguna de las variables del dataset. Todas las columnas presentan 50,000 registros completos, lo cual facilita el análisis y el modelado posterior.
@@ -61,6 +69,10 @@ El análisis muestra que no existen valores faltantes en ninguna de las variable
 
 
 
+
+<br>
+<br>
+<br>
 
 ## Variable objetivo
 
@@ -106,6 +118,10 @@ La variable `Target_Severity_Score` es adecuada como objetivo para modelado pred
 
 
 
+
+<br>
+<br>
+<br>
 
 ## Variables individuales
 
@@ -303,9 +319,61 @@ Análisis detallado de cada variable individual del dataset, incluyendo estadí
 
 
 
+<br>
+<br>
+<br>
+
 ## Ranking de variables
 
-En esta sección se presenta un ranking de las variables más importantes para predecir la variable objetivo. Se utilizan técnicas como la correlación, el análisis de componentes principales (PCA) o la importancia de las variables en un modelo de aprendizaje automático.
+### Metodología de análisis
+
+Para determinar la importancia de las variables predictoras respecto a la variable objetivo `Target_Severity_Score`, se han aplicado diferentes técnicas:
+1. **Correlación de Pearson**: Medición directa de la relación lineal entre cada variable y el puntaje de severidad. 
+2. **Análisis visual de relaciones bivariadas**: Exploración gráfica de patrones entre predictores y la variable objetivo.
+3. **Interpretación contextual**: Análisis de la relevancia clínica y epidemiológica de cada factor de riesgo.
+
+### Ranking de variables por correlación con la severidad
+
+|Ranking|Variable|Correlación|Tipo de relación|
+|---|---|---|---|
+|1|Smoking (Tabaquismo)|0.48|Positiva fuerte|
+|2|Genetic_Risk (Riesgo genético)|0.47|Positiva fuerte|
+|3|Treatment_Cost_USD (Costo del tratamiento)|-0.46|Negativa fuerte|
+|4|Air_Pollution (Contaminación del aire)|0.37|Positiva moderada|
+|5|Alcohol_Use (Consumo de alcohol)|0.36|Positiva moderada|
+|6|Obesity_Level (Nivel de obesidad)|0.25|Positiva débil|
+|7|Survival_Years (Años de supervivencia)|0.004|Despreciable|
+|8|Year (Año de diagnóstico)|0.002|Despreciable|
+|9|Age (Edad)|-0.001|Despreciable|
+
+### Interpretación del ranking
+
+1. **Factores de alto impacto** (correlación > 0.4):    
+    - **Tabaquismo y riesgo genético**: Son los factores más determinantes de la severidad del cáncer, ambos con correlaciones cercanas a 0.5, indicando una fuerte relación positiva. Esto sugiere que intervenciones para reducir el consumo de tabaco podrían tener un impacto significativo en la severidad.
+    - **Costo del tratamiento**: Muestra una fuerte correlación negativa (-0.46), lo que podría indicar que tratamientos más costosos se asocian con casos menos severos, posiblemente debido a una intervención más temprana o efectiva.
+2. **Factores de impacto moderado** (correlación 0.25-0.4):
+    - **Contaminación del aire y consumo de alcohol**: Con correlaciones de 0.37 y 0.36 respectivamente, representan factores ambientales y de estilo de vida modificables.
+    - **Obesidad**: Con una correlación de 0.25, aunque más débil, sigue siendo relevante como factor de riesgo.
+3. **Factores de bajo impacto** (correlación < 0.01):
+    - **Edad, año de diagnóstico y años de supervivencia**: Sorprendentemente, estas variables muestran correlaciones prácticamente nulas con la severidad, lo que contradice algunas expectativas clínicas.
+
+### Variables categóricas
+
+Aunque no incluidas **de momento** en el análisis de correlación, las variables categóricas también pueden tener un impacto significativo:
+- **Cancer_Stage**: Probablemente tenga una fuerte relación con la severidad, aunque al ser ordinal requiere un análisis diferente.
+- **Cancer_Type**: Diferentes tipos de cáncer podrían asociarse con distintos niveles de severidad.
+- **Country_Region**: Podría reflejar diferencias en sistemas de salud y acceso a tratamiento.
+
+### Directrices extra para el modelado predictivo
+
+1. **Priorizar variables de alto impacto**: Tabaquismo, riesgo genético y costo del tratamiento deberían ser incluidas en el modelo predictivo.
+2. **Transformaciones pendientes**:
+    - Para variables numéricas con fuertes correlaciones, normalización o estandarización.
+    - Para Treatment_Cost_USD, consideraremos la transformación logarítmica dada su distribución.
+    - Para variables categóricas, codificación apropiada (one-hot o ordinal según corresponda).
+3. **Consideraciones adicionales**:
+    - Nos falta evaluar posibles interacciones entre variables importantes (por ejemplo, tabaquismo y contaminación).
+    - Consideraremos métodos de selección de características más avanzados como PCA o técnicas basadas en modelos de árbol para capturar relaciones no lineales.
 
 
 
@@ -313,7 +381,14 @@ En esta sección se presenta un ranking de las variables más importantes para p
 
 
 
+
+<br>
+<br>
+<br>
 
 ## Relación entre variables explicativas y variable objetivo
 
 En esta sección se presenta un análisis de la relación entre las variables explicativas y la variable objetivo. Se utilizan gráficos como la matriz de correlación y el diagrama de dispersión para entender mejor la relación entre las variables. Además, se pueden utilizar técnicas como la regresión lineal para modelar la relación entre las variables.
+
+
+
