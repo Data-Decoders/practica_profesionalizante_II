@@ -116,5 +116,3 @@
   Integra explicaciones visuales con SHAP o gráficos que ayuden a entender las predicciones, aumentando la confianza del usuario.
   - **Conectar con APIs externas**  
   Permite que tu app consuma o exponga APIs para integrar el modelo en flujos de trabajo más amplios o facilitar despliegues en producción.
-  - **Diseñar una experiencia de usuario clara y amigable**  
-  Organiza la app con instrucciones, etiquetas claras y diseño intuitivo para que cualquier usuario pueda usarla sin dificultad
