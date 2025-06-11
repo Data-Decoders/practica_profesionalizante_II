@@ -28,7 +28,7 @@
     - Validación de entrada más estricta.
 
 - **Diagrama de arquitectura:**  
-  ![Arquitectura del despliegue](https://i.ibb.co/t9DrM9B/diagrama-arquitectura.png)
+  ![Arquitectura del despliegue](https://raw.githubusercontent.com/erick-lpz/testing/main/diagrama_arquitectura.png)
 
 ## Código de despliegue
 
