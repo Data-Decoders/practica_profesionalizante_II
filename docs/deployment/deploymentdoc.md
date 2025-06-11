@@ -52,7 +52,7 @@
 1. Crear un repositorio en GitHub que contenga:
    - `deploy.py`
    - `requirements.txt`
-   - (opcionalmente) `modelo_severidad_cancer_svs.pkl` o un enlace público para su descarga.
+   - `modelo_severidad_cancer_svs.pkl` o un enlace público para su descarga.
 
 2. En la plataforma Render:
    - Ir a “New Web Service”.
@@ -67,16 +67,7 @@
 
 ### Instrucciones de configuración
 
-- Asegurar que el archivo `requirements.txt` incluya versiones compatibles con Colab:
-  ```txt
-  streamlit
-  pandas
-  pycaret==3.3.2
-  scikit-learn==1.4.2
-  joblib==1.3.2
-  mlflow==2.16.0
-  requests
-  ```
+- Asegurar que el archivo `requirements.txt` incluya versiones compatibles con Colab.
 
 - Verificar que el modelo (`.pkl`) esté accesible:
   - Desde un repositorio público en GitHub.
