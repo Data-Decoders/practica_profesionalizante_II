@@ -8,7 +8,7 @@ st.set_page_config(page_title="Predicción de Severidad de Cáncer", layout="cen
 st.title("Predicción de la Severidad del Cáncer")
 
 # URL del modelo y mapeo de severidad
-MODEL_URL = "https://github.com/erick-lpz/testing/raw/main/modelo_streamlit_completo/modelo_severidad_cancer_svs%20(1).pkl"
+MODEL_URL = "https://github.com/Data-Decoders/practica_profesionalizante_II/raw/master/src/models/modelo_severidad_cancer_svs.pkl"
 severidad_map = {0: "Baja", 1: "Media", 2: "Alta"}
 
 # Variables de estado del modelo
